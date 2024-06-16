@@ -54,7 +54,7 @@ const TechTools = ({ iconsArray }: any) => {
               }}
               fontWeight='600'
             >
-              Tools Of The Present And Future
+              Tools Driving Our Digital Success
             </Typography>
             <Typography
               variant='h2'

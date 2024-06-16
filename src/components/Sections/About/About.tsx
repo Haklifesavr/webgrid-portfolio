@@ -2,6 +2,7 @@ import { Container, Box, Grid } from '@mui/material';
 import Image from 'next/image'
 import Typography from '@mui/material/Typography';
 import ReadMore from '../ReadMore/ReadMore';
+import background from '../../../../assets/icons/background2.jpg'
 import { ColorModeContext } from '../../../../pages/_app';
 import { useContext } from 'react';
 const About = () => {
@@ -61,7 +62,7 @@ const About = () => {
                             alt='Personal Image'
                             className='img1 '
                             layout='fill'
-                            src={`https://res.cloudinary.com/dwcu3wcol/image/upload/v1659776757/20211226_154523_-_Copy_hhy2kp.jpg`}/>
+                            src={background}/>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={12} md={7.5} lg={7}>
@@ -83,7 +84,7 @@ const About = () => {
                             }
                         }}
                             fontWeight='600'>
-                            About Me, We are WebGrid Developers
+                            About Us, We are WebGrid Developers
                         </Typography>
                         <Typography
                             variant='h2'
@@ -94,9 +95,7 @@ const About = () => {
                                 sm: '1em'
                             }
                         }}>
-                        We are a Software Development Agency. 
-                        I first started developing games using Unity3D, but soon realized I preferred web and mobile app development, 
-                        and I&apos;ve been building and working on that for the past 3 years now.
+                        We are a Software Development Agency dedicated to delivering high-quality web and mobile applications. Our journey began with a passion for creating innovative solutions using cutting-edge technologies. Over the past three years, we have grown into a team of skilled professionals who specialize in various aspects of software development.
                         </Typography>
                     </Box>
                     <Typography
@@ -109,11 +108,10 @@ const About = () => {
                             },
                             pb:'.5em'
                         }}>
-                      Being self-taught made me appreciate education; thus, I&apos;m studying Management Information Systems simultaneously. Business and technology are both my passions.
-
+                            Our mission is to empower businesses by providing them with robust, scalable, and user-friendly digital solutions. We strive to stay ahead of the technology curve to ensure our clients receive the best possible service.
                         </Typography>
                     <ReadMore>
-                    Aside from working hard, I tend to enjoy simple things like reading, petting cats, hitting the gym, and other things we humans do. If any of what I said seems interesting, then please do not hesitate to send me a message.
+                        Our team consists of experienced developers, designers, and project managers who are passionate about technology and dedicated to delivering excellence. We work together to bring your ideas to life and ensure your projects are a success.
                     </ReadMore>
                 </Grid>
             </Grid>

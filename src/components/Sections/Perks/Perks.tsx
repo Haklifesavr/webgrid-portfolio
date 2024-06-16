@@ -21,19 +21,19 @@ gsap.registerPlugin(ScrollTrigger);
 
 
 const perksArray = [{
-    title:'Continuous support',
+    title:'Continuous Support',
     Icon:HandymanIcon,
-    text:'I will advance your web-based software to keep it efficient, competitive on the market. Using a well-established DevOps processes, It helps me roll out urgent updates within few hours and release new, planned functional modules every other week.',
+    text:'We advance your web-based software to keep it efficient and competitive in the market. Utilizing well-established DevOps processes, we ensure urgent updates are rolled out within hours and new, planned functional modules are released every other week.',
 },
 {
-    title : 'Back-end development',
-    text : 'I accurately implement the business logic of your web app on the back end. I always rely on proven frameworks to ensure fast and quality coding. And I build well structured APIs to integrate your web app with corporate or third-party systems and services',
+    title : 'Backend Development',
+    text : 'Our team accurately implements the business logic of your web applications on the back end. We rely on proven frameworks to ensure fast and quality coding, and we build well-structured APIs to integrate your web applications with corporate or third-party systems and services.',
     Icon :  HttpIcon,
 }   ,
 {
-    title : 'Frontend design/dev',
+    title : 'Frontend Development',
     Icon : DevicesIcon,
-    text : 'As a web expert I tend to closely analyze the user audience to understand their needs and reflect these findings in UI design. Having agreed on the look and feel of a web app with project stakeholders, I push to bring it to life with smart front-end technologies.'
+    text : 'As web experts, we closely analyze the user audience to understand their needs and reflect these findings in UI design. After agreeing on the look and feel of a web application with project stakeholders, we bring it to life using smart front-end technologies.'
 }
 ]
 const Perks = () => {
@@ -78,7 +78,7 @@ const Perks = () => {
                     sm: '1em'
                 }
             }}>
-                Customer satisfaction comes first, and in order to do that I decided to pickup skills and principles to provide quality service.
+                Customer satisfaction comes first, and in order to do that, we dedicate ourselves to mastering the skills and principles necessary to provide exceptional service.
             </Typography>
 
             <Box

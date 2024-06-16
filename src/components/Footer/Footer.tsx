@@ -13,14 +13,15 @@ function Copyright() {
             textAlign:'center',
             margin : '1em auto'
         }}>
-            
-
-            <Typography variant='h1' fontSize='1em'>
+            {/* <Typography variant='h1' fontSize='1em'>
                 {'Copyright © '}
                 <Link color="inherit" target='_blank'  rel="noreferrer" href="https://onbeirut.onrender.com">
                     onbeirut.onrender.com
                 </Link>{' '} {new Date().getFullYear()}
                 {'.'}
+            </Typography> */}
+            <Typography variant="body2" color="textSecondary" component="p">
+                &copy; {new Date().getFullYear()} WebGrid Developers. All rights reserved.
             </Typography>
         </Box>
         </>
@@ -65,7 +66,7 @@ function Footer() {
 
                         <Box sx={styles}>
                             <Typography variant='h3' fontSize='1em'>
-                                Hi, our name is WebGrid Developers and we have created this Software Agency which aims to solve various issues.
+                            We are WebGrid Developers are committed to delivering innovative and efficient solutions to solve complex business challenges.
                             </Typography>
                         </Box>
 
@@ -90,10 +91,10 @@ function Footer() {
                     <Grid item xs={12} sm={3} md={3}>
                         <Typography variant='h1' fontSize='1.4em' fontWeight='400'>Contact</Typography>
                         <Box className='link' sx={styles}>
-                            <a target='_blank' rel="noreferrer" href='https://github.com/VitoMedlej'>Github</a>
-                            <Typography variant='h1' fontSize='1em'>vito.medlej@gmail.com</Typography>
-                            <Typography variant='h1' fontSize='1em'>Lebanon/Beirut</Typography>
-                            <Typography variant='h1' fontSize='1em'>+961/81826445</Typography>
+                            {/* <a target='_blank' rel="noreferrer" href='https://github.com/VitoMedlej'>Github</a> */}
+                            <Typography variant='h1' fontSize='1em'>webgrid.developers@gmail.com</Typography>
+                            <Typography variant='h1' fontSize='1em'>Lahore/Pakistan</Typography>
+                            <Typography variant='h1' fontSize='1em'>+92 3219427983</Typography>
                         </Box>
                     </Grid>
                 </Grid>

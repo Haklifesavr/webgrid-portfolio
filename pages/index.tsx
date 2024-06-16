@@ -210,7 +210,6 @@ export async function getStaticProps() {
             }
         }
     } catch (err) {
-        console.log('err: ', err);
         return {
             props: {
                 data: null

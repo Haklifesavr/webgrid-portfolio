@@ -250,9 +250,9 @@ const Contact = () => {
                         }}>
 
                             <ContactBox 
-                            href='mailto:vito.medlej@gmail.com'
+                            href='mailto:webgrid.developers@gmail.com'
                             target='_blank'
-                            t1='Get in touch' t2='Email Address' t3='vito.medlej@gmail.com'/>
+                            t1='Get in touch' t2='Email Address' t3='webgrid.developers@gmail.com'/>
                             <ContactBox 
                             href={`https://www.google.com/maps/place/Lebanon/data=!4m2!3m1!1s0x151f17028422aaad:0xcc7d34096c00f970?sa=X&ved=2ahUKEwiK1JSG9or9AhXfUaQEHdUJC40Q8gF6BAgIEAI`}
                             target='_blank'
