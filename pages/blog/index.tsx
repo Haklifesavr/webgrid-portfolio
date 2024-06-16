@@ -9,7 +9,7 @@ const Index = () => {
             opacity: 1,
             // background: '#000000eb',
         }}
-            title='Vito Medlej | Blog '>
+            title='WebGrid Developers | Blog '>
             <main>
 
                 <Box

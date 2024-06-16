@@ -65,9 +65,7 @@ function Footer() {
 
                         <Box sx={styles}>
                             <Typography variant='h3' fontSize='1em'>
-                                Hi, my name is Vito Medlej and I have created the OnBeirut Agency which aims to solve various issues small lebanese
-                                businesses face. You are free to use the website as a template for yourself as long as you
-                                give credit.
+                                Hi, our name is WebGrid Developers and we have created this Software Agency which aims to solve various issues.
                             </Typography>
                         </Box>
 

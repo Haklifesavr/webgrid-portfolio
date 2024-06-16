@@ -72,7 +72,7 @@ const Hero = () => {
                             maxWidth: '570px',
                             fontWeight: '300'
                         }}>
-                           Hey there! Call me Vito Medlej. I enjoy creating kickass websites and web/mobile apps, ones that suit your desires and needs using latest technologies and cleanest design patterns. 
+                           Hey there! Call us WebGrid Developers. We enjoy creating kickass websites and web/mobile apps, ones that suit your desires and needs using latest technologies and cleanest design patterns. 
                         </Typography>
 
                         <Box

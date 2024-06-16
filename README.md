@@ -1,4 +1,4 @@
-# Free Developer Portfolio Template by Vito Medlej
+# WebGrid Developers Portfolio
 
 This is an open-source portfolio website template for developers. Showcase your skills, projects, and experience with this customizable and easy-to-use template.
 

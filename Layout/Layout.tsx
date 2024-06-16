@@ -18,22 +18,22 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
 
     <>
     <Head >
-        <title>{title || "Vito Medlej Personal Portfolio | Lebanese Web Developer"}</title>
+        <title>{title || "WebGrid Developers Portfolio | Web Developers"}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="https://res.cloudinary.com/dwcu3wcol/image/upload/v1657099811/log_nkmcys.jpg" />
   
    
     
-<meta name="description" content={`${desc || 'Vito Medlej personal portfolio, An expert in UI/UX and building complex websites and applications'}`} />
+<meta name="description" content={`${desc || 'WebGrid Developers portfolio, An expert in UI/UX and building complex websites and applications'}`} />
 
 
-<meta property="og:title" content="Vito Medlej Personal Portfolio | Lebanese Web Developer" />
+<meta property="og:title" content="WebGrid Developers Portfolio | Web Developers" />
 
 
 <meta property="og:url" content="https://elvito.netlify.app" />
 
 
-<meta property="og:description" content="Vito Medlej | Web Developer based in Lebanon. And this is my Portfolio and my blog "/>
+<meta property="og:description" content="WebGrid Developers | Web Developer Experts. And this is our Portfolio "/>
 
 
 <meta property="og:image" content="https://res.cloudinary.com/dwcu3wcol/image/upload/v1658929513/log-removebg-preview_fygpsd.png"/>
@@ -47,8 +47,8 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
     <meta name="robots" content="index, follow"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     {/* <meta name="description" content="Site Meta Description" /> */}
-    <meta name="keywords" content="Personal Portfolio" />
-    <meta name="author" content="Vito Medlej" />
+    <meta name="keywords" content="Portfolio" />
+    <meta name="author" content="WebGrid Developers" />
     <meta name="publisher" content="publisher"/>
     <meta name="copyright" content="copyright"/>
     <meta name="page-topic" content="Web Development | Blog"/>

@@ -69,8 +69,8 @@ const Contact = () => {
 
     return (
         <Layout
-            title='Vito Medlej contact page'
-            desc='If you have questions or need help you can contact me at vito.medlej@gmail.com | Or Send a Message through the form.'>
+            title='WebGrid Developers contact page'
+            desc='If you have questions or need help you can contact me at webgrid.developers@gmail.com | Or Send a Message through the form.'>
 
             <Box sx={{
                 overflowX: 'hidden'

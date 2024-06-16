@@ -83,7 +83,7 @@ const About = () => {
                             }
                         }}
                             fontWeight='600'>
-                            About Me, Im Vito Medlej
+                            About Me, We are WebGrid Developers
                         </Typography>
                         <Typography
                             variant='h2'
@@ -94,8 +94,9 @@ const About = () => {
                                 sm: '1em'
                             }
                         }}>
-                      A 20-year-old Lebanon-based software developer. I first started developing games using Unity3D, but soon realized I preferred web and mobile app development, and I&apos;ve been building and working on that for the past 3 years now.
-
+                        We are a Software Development Agency. 
+                        I first started developing games using Unity3D, but soon realized I preferred web and mobile app development, 
+                        and I&apos;ve been building and working on that for the past 3 years now.
                         </Typography>
                     </Box>
                     <Typography
