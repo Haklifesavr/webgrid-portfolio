@@ -63,7 +63,7 @@ const Projects = ({projectsArray} : IProjects[] | any) => {
                             }
                         }}
                             fontWeight='600'>
-                            Successful Projects I&apos;m Proud Of
+                            Successful Projects We Are Proud Of
                         </Typography>
                         <Typography
                             className='title4 t25o0'

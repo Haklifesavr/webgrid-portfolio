@@ -43,16 +43,16 @@ const ToolCard = ({title, svg, filter, className} : IToolCard) => {
                     sm: '60px'
                 }
             }}>
-
-                <Image
-                    
-                    alt='Icon'
-                    className={`${filter
-                    ? 'filter '
-                    : ''} icon`}
-                    width='100%'
-                    height='100%'
-                    src={`${svg}`}/>
+            {svg ? (
+            <div
+                className={`${filter && ["Flask", "Next.js", "GitHub"].includes(title) ? 'filter ' : ''} icon`}
+                style={{ width: '100%', height: '100%' }}
+            >
+                {svg}
+            </div>
+            ) : (
+            <p>Icon</p>
+            )}
             </Box>
             <Typography
                 variant='h3'
