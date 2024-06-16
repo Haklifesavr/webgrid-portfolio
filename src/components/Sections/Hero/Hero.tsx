@@ -1,8 +1,10 @@
-import {Box, Button, Container, Grid, Tooltip, Typography} from '@mui/material';
+import {Box, Button, Container, Grid, Typography} from '@mui/material';
 import gsap from 'gsap';
 import {useRef, useEffect} from 'react';
+import {useRouter} from "next/router";
 import ScrollToPlugin from "gsap/dist/ScrollToPlugin";
 import HeroSectionAnimation from '../../../gsap/HeroSectionAnimation';
+import background from '../../../../assets/icons/background.jpg'
 import Image from 'next/image'
 
 export const btnStyles = {
@@ -12,6 +14,7 @@ export const btnStyles = {
 
 const Hero = () => {
     const ref = useRef();
+    const router = useRouter()
     const q = gsap
         .utils
         .selector(ref);
@@ -57,7 +60,7 @@ const Hero = () => {
                             fontWeight: '600'
                         }}>
                       
-                        The place where your business expands
+                        Innovative Solutions for Your Digital Success
                         </Typography>
                         <Typography
                             variant='h2'
@@ -72,7 +75,7 @@ const Hero = () => {
                             maxWidth: '570px',
                             fontWeight: '300'
                         }}>
-                           Hey there! Call us WebGrid Developers. We enjoy creating kickass websites and web/mobile apps, ones that suit your desires and needs using latest technologies and cleanest design patterns. 
+                           We specialize in creating top-notch websites and mobile apps tailored to your business needs using cutting-edge technologies and best design practices.
                         </Typography>
 
                         <Box
@@ -98,9 +101,8 @@ const Hero = () => {
                             })}>
                                 View Projects
                             </Button>
-                        <a href={`https://drive.google.com/drive/u/0/my-drive`} rel="noreferrer" target='_blank' >
-
                             <Button
+                                onClick={()=>router.push('/contact')}
                                 className='b2'
                                 sx={{
                                 ...btnStyles,
@@ -115,11 +117,9 @@ const Hero = () => {
                                 variant='text'>
                                 
                                 <Typography fontSize='14px'>
-                                    View Resume
+                                    Contact Us
                                 </Typography>
                             </Button>
-                            </a>
-
                         </Box>
                     </Box>
                 </Grid>
@@ -167,18 +167,15 @@ const Hero = () => {
                             }
                         }}>
 
-                            <Image
-
-                            
-                            layout='fill'
-
+                            <Image     
+                                layout='fill'
                                 style={{
                                 opacity: 0,
                                 borderRadius: '6px',
                                 zIndex: '2'
                             }}
                                 className='img1'
-                                src={`https://ucarecdn.com/150b60a1-4ef3-4ec8-8f1a-d90a7ea26c85/-/crop/1129x1256/0,194/-/preview/3000x3000/`}
+                                src={background}
                                 alt="Personal Image"/>
                             <Box
                                 className='gradientBg'
@@ -221,9 +218,9 @@ const Hero = () => {
                                     fontSize: '.85em',
                                     padding: '1em'
                                 }}>
-{`"Many ideas grow better when transplanted into another mind than the one where they sprang up."
+                                    {`"Innovation distinguishes between a leader and a follower."
 
-– Oliver Wendell Holmes`}
+                                    – Steve Jobs`}
                                 </Typography>
 
                             </Box>

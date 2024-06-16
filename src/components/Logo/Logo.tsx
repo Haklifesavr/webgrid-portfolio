@@ -14,14 +14,13 @@ const Logo = ({toggleDrawer, colorMode, color, source} : any) => {
         <Box
             onClick={() => {
             toggleDrawer(false);
-            if (router.pathname !== '/') 
-         {   console.log('pathname: ', router);
-         router.push('/');
-        }
-                gsap.to(window, {
-                    duration: 1,
-                    scrollTo: `#hero`
-                });
+            if (router.pathname !== '/') {
+                router.push('/');
+            }
+            gsap.to(window, {
+                duration: 1,
+                scrollTo: `#hero`
+            });
             }}
             sx={{
                 flex:1,
