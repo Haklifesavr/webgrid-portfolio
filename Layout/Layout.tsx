@@ -18,22 +18,22 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
 
     <>
     <Head >
-        <title>{title || "WebGrid Developers Portfolio | Web Developers"}</title>
+        <title>{title || "WebGrid Developers - Software Development Agency"}</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link rel="shortcut icon" href="https://res.cloudinary.com/dwcu3wcol/image/upload/v1657099811/log_nkmcys.jpg" />
   
    
     
-<meta name="description" content={`${desc || 'WebGrid Developers portfolio, An expert in UI/UX and building complex websites and applications'}`} />
+<meta name="description" content={`${desc || 'WebGrid Developers, An expert in UI/UX and building complex websites and applications'}`} />
 
 
-<meta property="og:title" content="WebGrid Developers Portfolio | Web Developers" />
+<meta property="og:title" content="WebGrid Developers - Software Development Agency" />
 
 
 <meta property="og:url" content="https://elvito.netlify.app" />
 
 
-<meta property="og:description" content="WebGrid Developers | Web Developer Experts. And this is our Portfolio "/>
+<meta property="og:description" content="WebGrid Developers - Software Development Agency"/>
 
 
 <meta property="og:image" content="https://res.cloudinary.com/dwcu3wcol/image/upload/v1658929513/log-removebg-preview_fygpsd.png"/>

@@ -115,8 +115,10 @@ const Home : NextPage = ({projectsArray} : any) => {
 
     }, [])
     return (
-        <Layout desc={`WebGrid Developers, A lebanese professional software engineer in Beirut, Can develop all kinds of websites and web/mobile applications according to your needs`} title='WebGrid Developers Fullstack Developer Portfolio Website'>
-
+    <Layout 
+      desc={`WebGrid Developers, a professional software development agency specializing in custom web and mobile applications, dedicated to solving complex business challenges with innovative solutions.`} 
+      title='WebGrid Developers - Software Development Agency'
+    >
             <Box
                 sx={{
                 margin: '0 auto',
