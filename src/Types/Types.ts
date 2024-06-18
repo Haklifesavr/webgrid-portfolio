@@ -22,10 +22,13 @@ export interface INavbar {
 export interface IInput {
     multi?: boolean;
     mt?: string;
-    name : string;
-    label : string
+    name: string;
+    label: string;
     type?: string;
+    value: string;
+    onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 }
+
 export interface IContactBox {
     t1 : string;
     t2 : string;

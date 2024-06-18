@@ -72,7 +72,7 @@ const CTA = () => {
                         }
                     }}
                         fontWeight='600'>
-                        What&apos;s holding you back? Send us a message!
+                        Ready to Connect? Send Us a Message!
                     </Typography>
                     <Box
                         sx={{

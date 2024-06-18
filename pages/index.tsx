@@ -43,7 +43,7 @@ const projectsArray = [
     img: Fynax,
     repoUrl: 'https://github.com/Haklifesavr/fynax-dashboards',
     isReversed: true,
-  }  
+  },
 ];
 
 
