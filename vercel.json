@@ -1,0 +1,30 @@
+{
+    "build": {
+      "env": {
+        "LD_LIBRARY_PATH": "/usr/local/lib:/usr/lib:/lib",
+        "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+      }
+    },
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ],
+    "env": {
+      "LD_LIBRARY_PATH": "/usr/local/lib:/usr/lib:/lib",
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    },
+    "functions": {
+      "api/hello.ts": {
+        "runtime": "nodejs16.x"
+      }
+    }
+  }
+  
