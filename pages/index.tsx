@@ -10,6 +10,42 @@ import {useEffect, useRef} from 'react';
 import CursorAnimation from '../src/gsap/CursorAnimation';
 import About from '../src/components/Sections/About/About';
 import Layout from '../Layout/Layout'
+import UrduDict from '../assets/icons/urdu_dict.png'
+import TransformLondon from '../assets/icons/transform_london.png'
+import OvoChatbot from '../assets/icons/ovo_chatbot.png'
+import Fynax from '../assets/icons/fynax.png'
+
+const projectsArray = [
+  {
+    title: 'Urdu Dictionaries',
+    description: 'Urdu Dictionaries is a comprehensive dictionary app designed to translate words between Urdu and English, French, Spanish, and German. The app was developed using React.js for the front end and Python for the back end. It leverages Elasticsearch as a NoSQL database for efficient data storage and retrieval. The app also integrates with the Oxford and Google Translate APIs to provide accurate translations.',
+    img: UrduDict,
+    repoUrl: 'https://github.com/Haklifesavr/urdu-dictionaries',
+    isReversed: false,
+  },  
+  {
+    title: 'Transform London',
+    description: 'Transform London is a web application that provides analytics and insights for different companies based on data extracted from Google Analytics and Lighthouse APIs. The data was collected using ETL processes and stored in Google BigQuery. We performed data transformations and then stored the processed data in Google Firestore, a NoSQL database. The backend was developed using Django, and the frontend was built with React, displaying the data in the form of graphs and tables.',
+    img: TransformLondon,
+    repoUrl: 'https://github.com/Haklifesavr/transform-london',
+    isReversed: true,
+  },  
+  {
+    title: 'OVO Chatbot',
+    description: 'OVO Chatbot is an advanced chatbot built on top of GPT. It allows organizations to train the chatbot using their company data, such as PDF documents, to assist employees with relevant and accurate information. The PDF content is stored as embeddings in Elasticsearch, enabling vector-based intelligent results and prompt engineering. The application was built using React for the frontend and Django for the backend. Elasticsearch was used as the vector database. The project was deployed on Google Cloud Run using GitHub CI/CD for continuous integration and deployment.',
+    img: OvoChatbot,
+    repoUrl: 'https://github.com/Haklifesavr/ovo-chatbot',
+    isReversed: false,
+  },  
+  {
+    title: 'Fynax Dashboards',
+    description: 'Fynax Dashboards is a comprehensive analytics platform similar to Transform London, but with an additional admin panel feature. This platform allows users to add and manage dashboards for any company, enabling the sale and handover of dashboards with user access. The backend is developed with Django and the frontend with React, displaying data in the form of graphs and tables. The platform is deployed on Google Cloud Run using GitHub CI/CD for continuous integration and deployment.',
+    img: Fynax,
+    repoUrl: 'https://github.com/Haklifesavr/fynax-dashboards',
+    isReversed: true,
+  }  
+];
+
 
 const iconsArray = [
     {
@@ -105,7 +141,7 @@ const iconsArray = [
   ];
   
 
-const Home : NextPage = ({projectsArray} : any) => {
+const Home : NextPage = () => {
     const ball = useRef()
 
     useEffect(() => {
@@ -175,7 +211,6 @@ export async function getStaticProps() {
                     items {
                       title
                       repoUrl
-                      siteUrl
                       description
                       img
                     }

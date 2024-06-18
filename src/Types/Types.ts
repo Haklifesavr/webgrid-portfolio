@@ -61,7 +61,6 @@ export interface IProjects {
 
     img : string;
     title : string;
-    siteUrl : string;
     repoUrl : string;
     description : string;
 

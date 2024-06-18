@@ -63,7 +63,7 @@ const Projects = ({projectsArray} : IProjects[] | any) => {
                             }
                         }}
                             fontWeight='600'>
-                            Successful Projects We Are Proud Of
+                            Projects That Define Our Excellence
                         </Typography>
                         <Typography
                             className='title4 t25o0'
@@ -76,7 +76,7 @@ const Projects = ({projectsArray} : IProjects[] | any) => {
                                 sm: '1em'
                             }
                         }}>
-                            No better way to get experience than real-life projects
+                            Delivering Excellence through Real-World Projects
                         </Typography>
 
                     </Grid>
@@ -93,7 +93,6 @@ const Projects = ({projectsArray} : IProjects[] | any) => {
                                     isReversed={index % 2 === 0
                                     ? true
                                     : false}
-                                    siteUrl={project.siteUrl}
                                     repoUrl={project.repoUrl}
                                     title={project.title}
                                     img={project.img}
