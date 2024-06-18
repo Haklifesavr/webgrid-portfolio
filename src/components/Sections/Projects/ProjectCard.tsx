@@ -154,7 +154,8 @@ const ProjectCard = ({
                 </Typography>
               </Button>
             </a>
-            <a href={"https://crm-django-sz3c6uf2gq-uc.a.run.app/"} rel="noreferrer" target="_blank">
+
+            {/* <a href={"https://crm-django-sz3c6uf2gq-uc.a.run.app/"} rel="noreferrer" target="_blank">
               <Button
                 variant='contained'
                 sx={{
@@ -168,7 +169,7 @@ const ProjectCard = ({
                   Live Preview
                 </Typography>
               </Button>
-            </a>
+            </a> */}
           </Box>
         </Box>
       </Box>

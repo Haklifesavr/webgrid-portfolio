@@ -47,7 +47,7 @@ const projectsArray = [
   },
   {
     title: 'CRM Dashboards',
-    description: '',
+    description: 'This project is a versatile web application developed using Django, serving both backend and frontend needs with Django templates. It incorporates a secure user authentication system, allowing users to register and log in to access various features. An administrative interface enables efficient user management, where admins can oversee user accounts by adding, editing, or removing them. The application also includes a chat system, facilitating real-time communication among authenticated users. Additionally, it features a Kanban board for task management, providing employees with a visual and interactive tool to organize, update, and track their daily tasks.',
     img: CrmBoard,
     repoUrl: '',
     isReversed: false,
