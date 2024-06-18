@@ -47,7 +47,7 @@ const projectsArray = [
   },
   {
     title: 'CRM Dashboards',
-    description: 'Fynax Dashboards is a comprehensive analytics platform similar to Transform London, but with an additional admin panel feature. This platform allows users to add and manage dashboards for any company, enabling the sale and handover of dashboards with user access. The backend is developed with Django and the frontend with React, displaying data in the form of graphs and tables. The platform is deployed on Google Cloud Run using GitHub CI/CD for continuous integration and deployment.',
+    description: '',
     img: CrmBoard,
     repoUrl: '',
     isReversed: false,

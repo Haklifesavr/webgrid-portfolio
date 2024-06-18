@@ -154,6 +154,21 @@ const ProjectCard = ({
                 </Typography>
               </Button>
             </a>
+            <a href={"https://crm-django-sz3c6uf2gq-uc.a.run.app/"} rel="noreferrer" target="_blank">
+              <Button
+                variant='contained'
+                sx={{
+                    ...btnStyles,
+                    padding: '.5em .8em',
+                    color: 'white',
+                    border: '1px solid #0092ff'
+                  }}
+              >
+                <Typography fontSize='12px'>
+                  Live Preview
+                </Typography>
+              </Button>
+            </a>
           </Box>
         </Box>
       </Box>
