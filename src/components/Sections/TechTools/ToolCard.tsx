@@ -4,8 +4,9 @@ import {IToolCard} from '../../../Types/Types';
 import {centeredStyles} from '../Perks/Perks';
 import {useEffect} from 'react';
 import gsap from 'gsap'
-const ToolCard = ({title, svg, filter, className} : IToolCard) => {
 
+const ToolCard = ({title, svg, filter, className} : IToolCard) => {
+    console.log("FILTERR", filter)
     useEffect(() => {
 
         gsap.to(`.${className}`, {
@@ -44,7 +45,7 @@ const ToolCard = ({title, svg, filter, className} : IToolCard) => {
             }}>
             {svg ? (
             <div
-                className={`${filter && ["Flask", "Next.js", "GitHub"].includes(title) ? 'filter ' : ''} icon`}
+                className={`${filter && ["Flask", "Next.js", "Github"].includes(title) ? 'filter ' : ''} icon`}
                 style={{ width: '100%', height: '100%' }}
             >
                 {svg}

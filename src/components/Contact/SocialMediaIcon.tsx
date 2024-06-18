@@ -1,6 +1,5 @@
 import { Box, Typography } from "@mui/material"
 import { centeredStyles } from "../Sections/Perks/Perks"
-import Image from 'next/image'
 import { ISocialMedia } from "../../Types/Types"
 
 const SocialMediaIcon = ({title, svg, href, filter} : ISocialMedia) => {
@@ -31,15 +30,12 @@ const SocialMediaIcon = ({title, svg, href, filter} : ISocialMedia) => {
                     },
                   
                 }}>
-
-                    <Image
-                        alt='Icon'
-                        className={`${filter
-                        ? 'filter '
-                        : ''} icon`}
-                        width='100%'
-                        height='100%'
-                        src={svg || ''}/>
+                <div
+                    className={`${filter && ["Github"].includes(title) ? 'filter ' : ''} icon`}
+                    style={{ width: '100%', height: '100%' }}
+                >
+                    {svg}
+                </div>
                 </Box>
                 <Typography
                     variant='h3'

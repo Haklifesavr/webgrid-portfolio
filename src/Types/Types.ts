@@ -42,14 +42,17 @@ export interface ICustomDrawer extends INavbar {
 }
 export interface IToolCard {
     title : string;
-    svg : string;
-    className ?: string;
+    svg : React.ReactNode;
+    className?: string;
     filter?: boolean
 }
-export interface ISocialMedia extends IToolCard {
-    color : string;
-    href : string;
+export interface ISocialMedia {
+    svg: React.ReactNode;
+    href: string;
+    title: string;
+    filter?: boolean;
 }
+
 export interface IDrawerItem {
     text : string;
     Icon : OverridableComponent < SvgIconTypeMap < {},
