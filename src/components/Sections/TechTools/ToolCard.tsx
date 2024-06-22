@@ -6,7 +6,6 @@ import {useEffect} from 'react';
 import gsap from 'gsap'
 
 const ToolCard = ({title, svg, filter, className} : IToolCard) => {
-    console.log("FILTERR", filter)
     useEffect(() => {
 
         gsap.to(`.${className}`, {
