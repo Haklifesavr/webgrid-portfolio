@@ -30,7 +30,7 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
 <meta property="og:title" content="WebGrid Developers - Software Development Agency" />
 
 
-<meta property="og:url" content="https://webgrid-portfolio.vercel.app" />
+<meta property="og:url" content="https://webgrid-devs.vercel.app" />
 
 
 <meta property="og:description" content="WebGrid Developers - Software Development Agency"/>
