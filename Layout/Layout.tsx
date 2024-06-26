@@ -24,7 +24,7 @@ const Layout = ({navbarSx, title ,children ,desc } : ILayout) => {
   
    
     
-<meta name="description" content={`${desc || 'WebGrid Developers, An expert in UI/UX and building complex websites and applications'}`} />
+<meta name="description" content={`${desc || 'WebGrid Developers, Experts in UI/UX and building complex websites and applications'}`} />
 
 
 <meta property="og:title" content="WebGrid Developers - Software Development Agency" />

@@ -66,7 +66,7 @@ function Footer() {
 
                         <Box sx={styles}>
                             <Typography variant='h3' fontSize='1em'>
-                            We are WebGrid Developers are committed to delivering innovative and efficient solutions to solve complex business challenges.
+                            We at WebGrid Developers are committed to delivering innovative and efficient solutions to solve complex business challenges.
                             </Typography>
                         </Box>
 
