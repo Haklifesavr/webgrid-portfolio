@@ -33,8 +33,8 @@ export interface IContactBox {
     t1 : string;
     t2 : string;
     t3 : string;
-    target ?: string;
-    href: string;
+    target?: string;
+    href?: string;
 }
 
 export interface ICustomDrawer extends INavbar {
